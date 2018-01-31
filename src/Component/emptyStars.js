@@ -1,8 +1,8 @@
 import React from "react";
 
-function emptyStars(){
+function emptyStars(keyNum){
     return (
-            <span className="glyphicon glyphicon-star-empty"></span>
+            <span className="glyphicon glyphicon-star-empty" key={keyNum}/>
     )
 }
 
